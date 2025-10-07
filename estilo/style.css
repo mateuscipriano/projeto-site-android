@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
- @font-face {
-            font-family:"droid" ;
-            src: url("../fontes/idroid.otf") format("opentype");
-            font-weight: normal; font-style: normal; }
-
            .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.share-tech-mono-regular {
+  font-family: "Share Tech Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
@@ -25,7 +26,7 @@
     --cor5: #063d1e; 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
     --fonte-destaque: 'Bebas Neue';
-    --fonte-android: 'droid'
+    --fonte-android: 'Share Tech Mono'
 }
      
             body {
